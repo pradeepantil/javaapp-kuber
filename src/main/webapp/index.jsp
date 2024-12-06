@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>this is demo page</title>
+<title>this is demo page for jenkins training</title>
 </head>
 <body>
 <center>
