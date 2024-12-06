@@ -45,7 +45,7 @@ pipeline {
                     withKubeConfig([credentialsId: 'kubeconfig']) {
                         sh "sed -i s/latest/$BUILD_NUMBER/g kubernetes-java/deploy.yml"
                         sh "kubectl apply -f kubernetes-java/deploy.yml"
-                        sh "sleep 10 && kubectl get svc"
+                        sh "sleep 20 && kubectl get svc"
                     }
                 }
             }
